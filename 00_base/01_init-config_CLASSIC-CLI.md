@@ -117,6 +117,10 @@ A/4           Down  No   Down    1514 1514    - netw null faste
   - **EVE shows p1/1/1 which is 1/1/c1 by default**
     - **After breakout same p1/1/1 becomes 1/1/c1/1**
 ```
+conf port 1/1/c1 connector breakout c10-10g
+conf port 1/1/c2 connector breakout c10-10g
+```
+```
 # show port | match 1/1/c11
 1/1/c11       Down       Down                             conn   100GBASE-LR4*
 # show port | match 1/1/c11
